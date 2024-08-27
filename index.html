@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magic Tiles</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="outerbody">
+        <header>
+            <h2>Magic Tiles</h2>
+            <div class="column volume-slider">
+              <span>Volume</span><input type="range" min="0" max="1" value="0.5" step="any">
+            </div>
+            <div class="column keys-checkbox">
+              <span>Show Keys</span><input type="checkbox" checked>
+            </div>
+          </header>
+        <div class="piano">
+           
+            <div data-note="C" class="key white"><span>a</span></div>
+            <div data-note="Db" class="key black"><span>w</span></div>
+            <div data-note="D" class="key white"><span>s</span></div>
+            <div data-note="Eb" class="key black"><span>e</span></div>
+            <div data-note="E" class="key white"><span>d</span></div>
+            <div data-note="F" class="key black"><span>r</span></div>
+            <div data-note="Gb" class="key white"><span>f</span></div>
+            <div data-note="G" class="key black"><span>t</span></div>
+            <div data-note="Ab" class="key white"><span>g</span></div>
+            <div data-note="A" class="key black"><span>y</span></div>
+            <div data-note="Bb" class="key white"><span>h</span></div>
+            <div data-note="B" class="key black"><span>u</span></div>
+            <div data-note="J" class="key white"><span>j</span></div>
+            
+        </div>
+    </div>
+        <audio id="C" src="notes/notes_C.mp3"></audio>
+        <audio id="Db" src="notes/notes_Db.mp3"></audio>
+        <audio id="D" src="notes/notes_D.mp3"></audio>
+        <audio id="Eb" src="notes/notes_Eb.mp3"></audio>
+        <audio id="E" src="notes/notes_E.mp3"></audio>
+        <audio id="F" src="notes/notes_F.mp3"></audio>
+        <audio id="Gb" src="notes/notes_Gb.mp3"></audio>
+        <audio id="G" src="notes/notes_G.mp3"></audio>
+        <audio id="Ab" src="notes/notes_Ab.mp3"></audio>
+        <audio id="A" src="notes/notes_A.mp3"></audio>
+        <audio id="Bb" src="notes/notes_Bb.mp3"></audio>
+        <audio id="B" src="notes/notes_B.mp3"></audio>
+        <audio id="J" src="notes/notes_J.mp3"></audio>
+  
+   
+</body>
+<script src="script.js"></script>
+</html>
